@@ -1,0 +1,47 @@
+h1 {
+    color: white;
+}
+
+body {
+    background-color: #ffffff;
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size:;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    width: 10em;
+    float: left;
+}
+
+p,h2{
+    text-align: center;
+}
